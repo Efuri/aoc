@@ -23,7 +23,7 @@ namespace _1
                 whichchar = 0;
                 while (!solved1)
                 {
-                    if ("0123456789".Any(digit => input[count].Substring(whichchar, 1) == digit.ToString())) 
+                    if ("123456789".Any(digit => input[count].Substring(whichchar, 1) == digit.ToString())) 
                     {
                         solved[count] += input[count].Substring(whichchar, 1);
                         solved1 = true;
@@ -35,7 +35,7 @@ namespace _1
                 {
                     string reversedLine = new string(input[count].Reverse().ToArray());
 
-                    if ("0123456789".Any(digit => reversedLine.Substring(whichchar, 1) == digit.ToString()))
+                    if ("123456789".Any(digit => reversedLine.Substring(whichchar, 1) == digit.ToString()))
                     {
                         solved[count] += reversedLine.Substring(whichchar, 1);
                         solved2 = true;
