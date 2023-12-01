@@ -23,62 +23,92 @@ namespace _2
                     whichchar = 0;
                     while (!solved1)
                     {
-                        if (input[count].Substring(whichchar, 3).Equals("One"))
+                    try { 
+                        if (input[count].Substring(whichchar, 3) == "one")
                     {
                         solved[count] += "1";
                         break;
                     }
-                        if (input[count].Substring(whichchar, 3).Equals("Two"))
+                    } 
+                    catch { }
+                    try { 
+                        if (input[count].Substring(whichchar, 3) == "two")
                     {
                         solved[count] += "2";
                         break;
                     }
-                    if (input[count].Substring(whichchar, 3).Equals("Three"))
+                    }
+                    catch { }
+                    try { 
+                    if (input[count].Substring(whichchar, 3) == "three")
                     {
                         solved[count] += "3";
                         break;
                     }
-                    if (input[count].Substring(whichchar, 3).Equals("Four"))
+                    }
+                    catch { }
+                    try { 
+                    if (input[count].Substring(whichchar, 3) == "four")
                     {
                         solved[count] += "4";
                         break;
                     }
-                    if (input[count].Substring(whichchar, 3).Equals("Five"))
+                    }
+                    catch { }
+                    try { 
+                    if (input[count].Substring(whichchar, 3) == "five")
                     {
                         solved[count] += "5";
                         break;
                     }
-                    if (input[count].Substring(whichchar, 3).Equals("Six"))
+                    }
+                    catch { }
+                    try { 
+                    if (input[count].Substring(whichchar, 3) == "six")
                     {
                         solved[count] += "6";
                         break;
                     }
-                    if (input[count].Substring(whichchar, 3).Equals("Seven"))
+                    }
+                    catch { }
+                    try { 
+                    if (input[count].Substring(whichchar, 3) == "seven")
                     {
                         solved[count] += "7";
                         break;
                     }
-                    if (input[count].Substring(whichchar, 3).Equals("Eight"))
+                    }
+                    catch { }
+                    try { 
+                    if (input[count].Substring(whichchar, 3) == "eight")
                     {
                         solved[count] += "8";
                         break;
                     }
-                    if (input[count].Substring(whichchar, 3).Equals("Nine"))
+                    }
+                    catch { }
+                    try { 
+                    if (input[count].Substring(whichchar, 3) == "nine")
                     {
                         solved[count] += "9";
                         break;
                     }
-                    if (input[count].Substring(whichchar, 3).Equals("Zero"))
+                    }
+                    catch { }
+                    try { 
+                    if (input[count].Substring(whichchar, 3) == "zero")
                     {
                         solved[count] += "0";
                         break;
                     }
+                    }
+                    catch { }
                     if ("0123456789".Any(digit => input[count].Substring(whichchar, 1) == digit.ToString()))
                         {
                             solved[count] += input[count].Substring(whichchar, 1);
                             solved1 = true;
                         }
-                        whichchar++;
+                    whichchar++;
                     }
 
 
@@ -88,57 +118,86 @@ namespace _2
                     while (!solved2)
                     {
                         string reversedLine = new string(input[count].Reverse().ToArray());
-
-                    if (reversedLine.Substring(whichchar, 3).Equals("Eno"))
+                    try { 
+                    if (reversedLine.Substring(whichchar, 3) == "eno")
                     {
                         solved[count] += "1";
                         break;
                     }
-                    if (reversedLine.Substring(whichchar, 3).Equals("Owt"))
+                    }
+                    catch { }
+                    try { 
+                    if (reversedLine.Substring(whichchar, 3) == "owt")
                     {
                         solved[count] += "2";
                         break;
                     }
-                    if (reversedLine.Substring(whichchar, 3).Equals("eerht"))
+                    }
+                    catch { }
+                    try { 
+                    if (reversedLine.Substring(whichchar, 3) == "eerht")
                     {
                         solved[count] += "3";
                         break;
                     }
-                    if (reversedLine.Substring(whichchar, 3).Equals("ruof"))
+                    }
+                    catch { }
+                    try { 
+                    if (reversedLine.Substring(whichchar, 3) == "ruof")
                     {
                         solved[count] += "4";
                         break;
                     }
-                    if (reversedLine.Substring(whichchar, 3).Equals("evif"))
+                    }
+                    catch { }
+                    try { 
+                    if (reversedLine.Substring(whichchar, 3) == "evif")
                     {
                         solved[count] += "5";
                         break;
                     }
-                    if (reversedLine.Substring(whichchar, 3).Equals("xis"))
+                    }
+                    catch { }
+                    try { 
+                    if (reversedLine.Substring(whichchar, 3) == "xis")
                     {
                         solved[count] += "6";
                         break;
                     }
-                    if (reversedLine.Substring(whichchar, 3).Equals("neves"))
+                    }
+                    catch { }
+                    try { 
+                    if (reversedLine.Substring(whichchar, 3) == "neves")
                     {
                         solved[count] += "7";
                         break;
                     }
-                    if (reversedLine.Substring(whichchar, 3).Equals("thgie"))
+                    }
+                    catch { }
+                    try { 
+                    if (reversedLine.Substring(whichchar, 3) == "thgie")
                     {
                         solved[count] += "8";
                         break;
                     }
-                    if (reversedLine.Substring(whichchar, 3).Equals("enin"))
+                    }
+                    catch { }
+                    try { 
+                    if (reversedLine.Substring(whichchar, 3) == "enin")
                     {
                         solved[count] += "9";
                         break;
                     }
-                    if (reversedLine.Substring(whichchar, 3).Equals("orez"))
+                    }
+                    catch { }
+                    try { 
+                    if (reversedLine.Substring(whichchar, 3) == "orez")
                     {
                         solved[count] += "0";
                         break;
                     }
+                    }
+                    catch { }
 
                     if ("0123456789".Any(digit => reversedLine.Substring(whichchar, 1) == digit.ToString()))
                         {
