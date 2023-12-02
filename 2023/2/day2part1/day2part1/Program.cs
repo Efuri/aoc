@@ -32,7 +32,7 @@ namespace day2part1
                     if (line2.Contains("red"))
                     {
                         string justNumbers = string.Concat(line2.Where(Char.IsDigit));
-                        red += int.Parse(line2.Substring(0, 1));
+                        red = int.Parse(justNumbers.Substring(0, 1));
                         if (red > 12)
                         {
                             isOkay = false;
@@ -41,7 +41,7 @@ namespace day2part1
                     if (line2.Contains("green"))
                     {
                         string justNumbers = string.Concat(line2.Where(Char.IsDigit));
-                        green += int.Parse(line2.Substring(0, 1));
+                        green = int.Parse(justNumbers.Substring(0, 1));
                         if (green > 14)
                         {
                             isOkay = false;
@@ -50,7 +50,7 @@ namespace day2part1
                     if (line2.Contains("blue"))
                     {
                         string justNumbers = string.Concat(line2.Where(Char.IsDigit));
-                        blue += int.Parse(line2.Substring(0, 1));
+                        blue = int.Parse(justNumbers.Substring(0, 1));
                         if (blue > 13) 
                         { 
                             isOkay = false;
