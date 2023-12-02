@@ -31,7 +31,7 @@ namespace debug
                     if (line2.Contains("red"))
                     {
                         string justNumbers = string.Concat(line2.Where(Char.IsDigit));
-                        red = int.Parse(justNumbers.Substring(0, 1));
+                        red = int.Parse(justNumbers);
                         if (red > 12)
                         {
                             isOkay = false;
@@ -40,7 +40,7 @@ namespace debug
                     if (line2.Contains("green"))
                     {
                         string justNumbers = string.Concat(line2.Where(Char.IsDigit));
-                        green = int.Parse(justNumbers.Substring(0, 1));
+                        green = int.Parse(justNumbers);
                         if (green > 14)
                         {
                             isOkay = false;
@@ -49,7 +49,7 @@ namespace debug
                     if (line2.Contains("blue"))
                     {
                         string justNumbers = string.Concat(line2.Where(Char.IsDigit));
-                        blue = int.Parse(justNumbers.Substring(0, 1));
+                        blue = int.Parse(justNumbers);
                         if (blue > 13)
                         {
                             isOkay = false;
