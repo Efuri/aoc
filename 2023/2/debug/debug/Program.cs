@@ -60,9 +60,6 @@ namespace debug
                 {
                     result += game;
                 }
-                red = 0;
-                green = 0;
-                blue = 0;
                 isOkay = true;
             }
             Console.WriteLine(result);
