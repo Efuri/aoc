@@ -1,0 +1,7 @@
+C:\Users\Erikf\OneDrive\Dokument\MEGAsync\prog\aoc\2023\2\debug\debug\obj\Debug\debug.csproj.AssemblyReference.cache
+C:\Users\Erikf\OneDrive\Dokument\MEGAsync\prog\aoc\2023\2\debug\debug\obj\Debug\debug.csproj.CoreCompileInputs.cache
+C:\Users\Erikf\OneDrive\Dokument\MEGAsync\prog\aoc\2023\2\debug\debug\bin\Debug\debug.exe.config
+C:\Users\Erikf\OneDrive\Dokument\MEGAsync\prog\aoc\2023\2\debug\debug\bin\Debug\debug.exe
+C:\Users\Erikf\OneDrive\Dokument\MEGAsync\prog\aoc\2023\2\debug\debug\bin\Debug\debug.pdb
+C:\Users\Erikf\OneDrive\Dokument\MEGAsync\prog\aoc\2023\2\debug\debug\obj\Debug\debug.exe
+C:\Users\Erikf\OneDrive\Dokument\MEGAsync\prog\aoc\2023\2\debug\debug\obj\Debug\debug.pdb
