@@ -26,27 +26,28 @@ namespace day2part2
                 foreach (string line2 in splitted)
                 {
                     int i = int.Parse(string.Concat(line2.Where(Char.IsDigit)));
-                    if (line2.Contains("red") && int.Parse(string.Concat(line2.Where(Char.IsDigit))) > red)
+                    if (line2.Contains("red") && i > red)
                     {
-                        red = int.Parse(string.Concat(line2.Where(Char.IsDigit)));
+                        red = i;
 
                     }
-                    if (line2.Contains("green") && int.Parse(string.Concat(line2.Where(Char.IsDigit))) > green)
+                    if (line2.Contains("green") && i > green)
                     {
 
-                        green = int.Parse(string.Concat(line2.Where(Char.IsDigit)));
+                        green = i;
 
                     }
-                    if (line2.Contains("blue") && int.Parse(string.Concat(line2.Where(Char.IsDigit))) > blue)
+                    if (line2.Contains("blue") && i > blue)
                     {
-                        blue = int.Parse(string.Concat(line2.Where(Char.IsDigit)));
+                        blue = i;
                     }
                 }
+                result += red * green * blue;
+                red = 0;
+                green = 0;
+                blue = 0;
             }
-            result += red + green + blue;
-            red = 0;
-            green = 0; 
-            blue = 0;
+
             Console.WriteLine(result);
         }
     }
