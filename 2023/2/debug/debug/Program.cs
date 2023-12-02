@@ -28,33 +28,7 @@ namespace debug
                 bool isOkay = true;
                 foreach (string line2 in splitted)
                 {
-                    if (line2.Contains("red"))
-                    {
-                        string justNumbers = string.Concat(line2.Where(Char.IsDigit));
-                        red = int.Parse(justNumbers);
-                        if (red > 12)
-                        {
-                            isOkay = false;
-                        }
-                    }
-                    if (line2.Contains("green"))
-                    {
-                        string justNumbers = string.Concat(line2.Where(Char.IsDigit));
-                        green = int.Parse(justNumbers);
-                        if (green > 14)
-                        {
-                            isOkay = false;
-                        }
-                    }
-                    if (line2.Contains("blue"))
-                    {
-                        string justNumbers = string.Concat(line2.Where(Char.IsDigit));
-                        blue = int.Parse(justNumbers);
-                        if (blue > 13)
-                        {
-                            isOkay = false;
-                        }
-                    }
+                    Console.WriteLine(line2);
                 }
                 if (isOkay == true)
                 {
@@ -62,7 +36,7 @@ namespace debug
                 }
                 isOkay = true;
             }
-            Console.WriteLine(result);
+            Console.ReadLine();
         }
     }
 }

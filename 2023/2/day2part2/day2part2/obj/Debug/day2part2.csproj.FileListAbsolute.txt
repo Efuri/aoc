@@ -1,0 +1,7 @@
+C:\Users\Erikf\OneDrive\Dokument\MEGAsync\prog\aoc\2023\2\day2part2\day2part2\obj\Debug\day2part2.csproj.AssemblyReference.cache
+C:\Users\Erikf\OneDrive\Dokument\MEGAsync\prog\aoc\2023\2\day2part2\day2part2\obj\Debug\day2part2.csproj.CoreCompileInputs.cache
+C:\Users\Erikf\OneDrive\Dokument\MEGAsync\prog\aoc\2023\2\day2part2\day2part2\bin\Debug\day2part2.exe.config
+C:\Users\Erikf\OneDrive\Dokument\MEGAsync\prog\aoc\2023\2\day2part2\day2part2\bin\Debug\day2part2.exe
+C:\Users\Erikf\OneDrive\Dokument\MEGAsync\prog\aoc\2023\2\day2part2\day2part2\bin\Debug\day2part2.pdb
+C:\Users\Erikf\OneDrive\Dokument\MEGAsync\prog\aoc\2023\2\day2part2\day2part2\obj\Debug\day2part2.exe
+C:\Users\Erikf\OneDrive\Dokument\MEGAsync\prog\aoc\2023\2\day2part2\day2part2\obj\Debug\day2part2.pdb
